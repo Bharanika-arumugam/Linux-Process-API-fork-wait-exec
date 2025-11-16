@@ -24,7 +24,8 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## 1. C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
-```
+
+```bash
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -46,11 +47,12 @@ int main() {
 
 
 ## OUTPUT
-<img width="719" height="317" alt="a" src="https://github.com/user-attachments/assets/11b612e7-9cab-4d4c-9a43-0370c3e27d9f" />
+![alt text](a-1.png)
 
 
 ## 2. C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-```
+
+```bash
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sys/types.h>
@@ -77,22 +79,21 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 ## OUTPUT
-
-<img width="745" height="599" alt="b" src="https://github.com/user-attachments/assets/af30b983-a6c0-4ef6-940c-ed3c45a07718" />
-<img width="668" height="589" alt="c" src="https://github.com/user-attachments/assets/a893d178-a7a9-430e-aa83-d10068fcd71d" />
-<img width="723" height="590" alt="d" src="https://github.com/user-attachments/assets/728764f2-0f7b-48e4-9223-77afa4515976" />
-<img width="710" height="593" alt="e" src="https://github.com/user-attachments/assets/331723ca-3530-47b0-8256-d9c33a2e9fa3" />
-<img width="786" height="589" alt="f" src="https://github.com/user-attachments/assets/965da45b-f54d-40d5-93bf-8880d00a8074" />
-<img width="792" height="585" alt="g" src="https://github.com/user-attachments/assets/3b7582e4-64f2-434d-b60d-f77affeda67d" />
-<img width="771" height="600" alt="h" src="https://github.com/user-attachments/assets/ded2e5eb-4cf5-42cd-9989-a4f1b5713173" />
-<img width="749" height="603" alt="j" src="https://github.com/user-attachments/assets/a0820306-745a-43da-96c1-e3fdaaf65ce1" />
-<img width="728" height="199" alt="k" src="https://github.com/user-attachments/assets/7038e8dd-0b7d-4633-a1b0-2a7ca5676d38" />
-
+![alt text](b.png) 
+![alt text](c.png)
+ ![alt text](d.png) 
+ ![alt text](e.png) 
+ ![alt text](f.png) 
+ ![alt text](g.png) 
+ ![alt text](h.png)
+ ![alt text](j.png)
+ ![alt text](k.png)
 
 
 
 ## 3. C Program to execute Linux system commands using Linux API system calls exec() family
-```
+
+```bash
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -135,7 +136,7 @@ int main() {
 }
 ```
 ## OUTPUT
-<img width="685" height="359" alt="l" src="https://github.com/user-attachments/assets/37ec9c39-22b9-495e-8854-da76c95d1c43" />
+![alt text](l.png)
 
 
 
